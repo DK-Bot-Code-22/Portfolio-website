@@ -8,7 +8,7 @@ body{
 
 header{
     background: #007bff;
-    color: #007bff;
+    color: #ffffff;
     padding: 20px;
     text-align: center;  
 }
@@ -22,26 +22,15 @@ section{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.111);
 }
 
-
-.about{
-    padding: 20px;
-}
-
 h2{
     color: #007bff;
 }
 
-footer{
+footer {
     text-align: center;
     padding: 10px;
     background: #007bff;
     color: #ffffff;
-}
-
-footer > p {
-    color: #000;
-    font-weight: bold;
-    font-size: 18px;
 }
 
 .social-links{
@@ -57,8 +46,14 @@ footer > p {
 
 .social-links > a:hover {
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 30px;
     color: #000;
+}
+
+footer > p {
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /*Project list*/
@@ -75,7 +70,7 @@ footer > p {
     padding: 15px;
     border-radius: 8px;
     width: 250px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.113);
     transition: transform 0.2s;
 }
 
@@ -95,7 +90,7 @@ footer > p {
 
 .project-card > a {
     display: inline-block;
-    padding: 8px;
+    padding: 8px 15px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -109,6 +104,7 @@ footer > p {
     background-color: #00056b;
 }
 
+
 nav {
     background-color: #333;
     position: sticky;
@@ -116,7 +112,7 @@ nav {
     z-index: 1000;
 }
 
-.nvbar {
+.navbar {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -137,4 +133,8 @@ nav {
 .navbar > li > a:hover {
     background-color: #007bff;
     
+}
+
+.about{
+    padding: 20px;
 }
